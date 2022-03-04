@@ -20,11 +20,12 @@ Github 에서 jekyll 을 이용
 편리한 이용을 위해 실질적으로 필요
 
 1. [Github](https://github.com/) 계정 만들어 원격 저장소 만들기
+    - 참고로 다른 git 싸이트도 있음
 
 2. 자기 컴퓨터에서 git 환경(로컬 저장소) 만들기
-    - 글로벌 설정하고 : git --global config
+    - 글로벌 설정하고 : `git --global config`
     - 프로젝트 폴더 만들어 
-        - 로컬 설정 : git config 
+        - 로컬 설정 : `git config` 
         - 글로벌리 설정보다 우선하여 적용됨
         - 글로벌리 내용과 같으면 생략
 
@@ -45,7 +46,7 @@ Github 에서 jekyll 을 이용
 1. 로컬에 루비와 지킬 설치
     - [지킬 싸이트](https://jekyllrb-ko.github.io/docs/)에서 빠른 설치 참고
     - 로컬에서 웹페이지 실행
-        - 명령 : bundle exec jekyll serve
+        - 명령 : `bundle exec jekyll serve`
         - 실행 결과 나타나는 URL 주소를 Ctrl + 클릭
         - 또는 브라우저에 디폴트 주소 입력
             - http://localhost:4000/
@@ -59,6 +60,8 @@ Github 에서 jekyll 을 이용
 # 깃으로 로컬 수정 내용 원격에 반영
 
 1. 로컬 수정 내용을 원격저장소에 반영
-    - 로컬에서 git add >> commit >> push
+    - 로컬에서 git add ->> commit ->> push
+
+` ` 
 
 2. 깃헙 인터넷 블로그 내용도 조금 뒤 수정됨
