@@ -7,7 +7,7 @@ tags:
 - OLS
 - GLS
 - FGLS
-- endogeneity
+- Endogeneity
 date: 2022-02-17 10:00:02
 ---
 
@@ -130,3 +130,5 @@ $\Omega = \sigma^2 I \quad$ 아니라면 이러한 검정은 유효하지 않음
 - 패널/시계열 등 상관구조 추론 가능 $\Rightarrow$ 적절한 방법론   
 - 상관구조 추론 어렵다면 $\Rightarrow$ 도구변수 등 특별조치  
 - 도구변수: $X$ 와 상관인 동시에 $\epsilon$ 과는 비상관  
+
+[참고 : 내생성-이분산 개념 그래픽으로 이해하기](/statistics/endo_graph)
