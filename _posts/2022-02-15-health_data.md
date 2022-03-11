@@ -8,7 +8,7 @@ tags:
 - healthcare data
 - SNOMED CT
 - Blue Button Initiative
-- Precision Medicine Initiative Cohort Program PMI-CP
+- PMI-CP Precision Medicine Initiative Cohort Program
 - S4S Sync for Science
 - All-of-Us
 categories:
