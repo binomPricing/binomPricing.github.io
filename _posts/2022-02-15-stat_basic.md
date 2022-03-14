@@ -91,7 +91,7 @@ $: \bar{\mathbf{X}}\_n = \sum_{i=1}^{n}\frac{X_i}{n} $
 
   - 평균적으로 맞다
 
-#### 2. 일치성 : consistent : $\lim_{n\to\infty}E[\bar{\mathbf{X}}]=\mu$
+#### 2. 일치성 : consistent : $\displaystyle\lim_{n\to\infty}E[\bar{\mathbf{X}}]=\mu$
 
   - 비일치 추정량은 표본의 수가 많아져도 개선 효과 없음
  
@@ -113,11 +113,11 @@ $: \bar{\mathbf{X}}\_n = \sum_{i=1}^{n}\frac{X_i}{n} $
 
 - 예 : $H_0 : \mu=m$ 검정
 
-$ \quad \quad \cfrac{\bar{\mathbf{X}}-m}{\frac{\sigma}{\sqrt{n}}} \sim N(0,1) $  
+$ \quad \quad \cfrac{\bar{\mathbf{X}}-\mu}{\frac{\sigma}{\sqrt{n}}} \sim N(0,1) $  
 
 $ \quad \quad \frac{(n-1) S^2}{\sigma^2} \sim \chi^2_{n-1} $  
 
-$ \quad \quad \cfrac{\bar{\mathbf{X}}-m}{\frac{S}{\sqrt{n}}} \sim t_{n-1} $  
+$ \quad \quad \cfrac{\bar{\mathbf{X}}-\mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1} $  
 
 Note : $Z, Z_i \sim iiN(0,1)$
 
