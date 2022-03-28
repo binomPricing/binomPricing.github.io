@@ -1,7 +1,7 @@
 ---
 title: 방데르몽드 행렬 Vandermonde matrix
 categories: 
-- lin_algebra
+- 대수학
 tags:
 - 선행대수
 - 행렬식
@@ -32,19 +32,20 @@ $$
 $$\displaystyle \det(V) = \prod_{1\le i\le j\le n}(\alpha_j - \alpha_i)$$
 
 - 따라서 같은 공비를 가진 행이 있는 경우 행렬식 = 0
+  - 이 경우 선형종속이 발생하기 때문이다
 - 예시
 
   $$
   \begin{align*}
   \begin{vmatrix}
-  \;1 & \alpha_1 \\ 
-  \;1 & \alpha_2 \\ 
+  \;1 & \alpha_1 \; \\ 
+  \;1 & \alpha_2 \; \\ 
   \end{vmatrix} \;&=\;\; 
   \alpha_2 - \alpha_1 \\ \\
   \begin{vmatrix}
-  \;1 & \alpha_1 & \alpha_1^2 \\
-  \;1 & \alpha_2 & \alpha_2^2 \\
-  \;1 & \alpha_3 & \alpha_3^2 \\
+  \;1 & \alpha_1 & \alpha_1^2 \; \\
+  \;1 & \alpha_2 & \alpha_2^2 \; \\
+  \;1 & \alpha_3 & \alpha_3^2 \; \\
   \end{vmatrix} \;&=\; 
   (\alpha_3 - \alpha_2)(\alpha_3 - \alpha_1)(\alpha_2 - \alpha_1)
   \end{align*}
