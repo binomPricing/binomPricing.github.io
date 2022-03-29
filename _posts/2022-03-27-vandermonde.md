@@ -1,8 +1,10 @@
 ---
 title: 방데르몽드 행렬 Vandermonde matrix
 categories: 
-- 대수학
+- algebra
 tags:
+- 대수학
+- algebra
 - 선행대수
 - 행렬식
 - 방데르몽드

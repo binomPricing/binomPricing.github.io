@@ -1,9 +1,11 @@
 ---
 title: 대칭다항식 symmetric polynomial
 categories: 
-- 대수학
+- algebra
 tags:
 - 대칭다항식 
+- 대수학
+- algebra
 - symmetric polynomial
 date: 2022-03-27 10:20:10
 ---
