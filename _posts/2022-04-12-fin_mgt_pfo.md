@@ -55,7 +55,8 @@ date: 2022-04-12 10:50:20
 - 표준편차(분산)
 - 단, 잘 분산투자됨(well-diversified)을 전제
 - 공분산(상관계수) 개념이 중요함
-- 공분산 : $\quad \displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(X - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
+  - 공분산 = 두 편차 곱의 기댓값
+  - $\quad \displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(X - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
 - 자기자신과의 공분산이 분산임
   - $Cov[X,X] \;=\; Var[X]$
 
@@ -77,7 +78,7 @@ date: 2022-04-12 10:50:20
 |:---|:---|
 | 개별/고유위험 idiosyncratic risk | 시장위험 market risk |
 | 분산가능위험 diversifiable risk | 분산불가능위험 non-diversifiable risk |
-| 가격 반영 안됨 | 가격에 반영됨 |
+| 가격에 반영 안됨 | 가격에 반영됨 |
 
 <br>
 
@@ -85,10 +86,11 @@ date: 2022-04-12 10:50:20
 
 # $$\tilde{r}_p = w_1\tilde{r}_1 + w_2\tilde{r}_2$$
 
-- $\tilde{r}_p$ : 수익률
-  - 확률변수로 값을 미리 정할 수 없음 : 값이 확률적으로 정해짐
-- $w_i$ : 자산분배비중(가중치)
-  - 투자자 자신이 값을 미리 정할 수 있음
+- $\tilde{r}_i$ : 자산 $i$ 의 수익률
+  - 확률변수로 값을 미리 정할 수 없음
+  - 값이 사후적으로 확률적으로 정해짐
+- $w_i$ : 자산 $i$ 에 대한 자산분배비중(가중치)
+  - 투자자 자신이 값을 미리(사전적으로) 정할 수 있음
 - 포트폴리오 수익률은 각 자산 수익률의 가중평균
 
 $E[\tilde{r}_p] = w_1E[\tilde{r}_1] + w_2E[\tilde{r}_2] \; ::: \;\mu_p = w_1\mu_1 + w_2\mu_2$
@@ -113,7 +115,7 @@ $( \tilde{r}_p - \mu_p )^2 = w_1^2 ( \tilde{r}_1 - \mu_1 )^2 +
 
 $\sigma_p^2 \; = \; w_1^2\sigma_1^2 +2w_1w_2\sigma_{1,2} + w_2^2\sigma_2^2$
 
-공분산과 상관계수 관계 : $\sigma_{1,2} = \rho\;\sigma_1\sigma_1$
+공분산과 상관계수 관계 : $\sigma_{1,2} = \rho\;\sigma_1\sigma_2$
 
 - 상관계수 = 공분산 나누기 표준편차들의 곱
 - 공분산 = 상관계수 곱하기 표준편차들의 곱
