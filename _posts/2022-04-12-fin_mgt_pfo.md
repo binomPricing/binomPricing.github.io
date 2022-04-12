@@ -56,9 +56,16 @@ date: 2022-04-12 10:50:20
 - 단, 잘 분산투자됨(well-diversified)을 전제
 - 공분산(상관계수) 개념이 중요함
   - 공분산 = 두 편차 곱의 기댓값
-  - $\quad \displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(X - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
+
+  - $\displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(X - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
+
 - 자기자신과의 공분산이 분산임
-  - $Cov[X,X] \;=\; Var[X]$
+  - $Cov[X,X] \;=\; Var[X]$  
+$ \; $
+- 상관계수 : 공분산 크기를 -1 과 1 사이로 표준화시킴
+
+  - $\displaystyle \rho_{x,y} \;=\; \frac{Cov[X,Y]}{\sqrt{Var[X]Var[Y]}} \;=\; \frac{\sigma_{x,y}}{\sigma_x \sigma_y} $
+
 
 <br>
 
