@@ -54,6 +54,10 @@ date: 2022-04-12 10:50:20
 
 - 표준편차(분산)
 - 단, 잘 분산투자됨(well-diversified)을 전제
+- 공분산(상관계수) 개념이 중요함
+- 공분산 : $\quad \displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(X - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
+- 자기자신과의 공분산이 분산임
+  - $Cov[X,X] \;=\; Var[X]$
 
 <br>
 
@@ -69,11 +73,11 @@ date: 2022-04-12 10:50:20
 
 ## 참고 1 : 체계적 위험 vs 비체계적 위험
 
-| 비체계적 위험 unsystematic risk | 체계적 위험 stematic risk |
+| 비체계적 위험 unsystematic risk | 체계적 위험 systematic risk |
 |:---|:---|
 | 개별/고유위험 idiosyncratic risk | 시장위험 market risk |
 | 분산가능위험 diversifiable risk | 분산불가능위험 non-diversifiable risk |
-| 가격 반영 안됨 | 가격에 반영 |
+| 가격 반영 안됨 | 가격에 반영됨 |
 
 <br>
 
