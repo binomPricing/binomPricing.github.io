@@ -57,7 +57,7 @@ date: 2022-04-12 10:50:20
 - 공분산(상관계수) 개념이 중요함
   - 공분산 = 두 편차 곱의 기댓값
 
-  - $\displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(X - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
+  - $\displaystyle Cov[X,Y] \;=\; E\left[\left(X - \mu_x \right)\left(Y - \mu_y \right)\right] \;=\; E\left[XY\right] - \mu_x \mu_y$
 
 - 자기자신과의 공분산이 분산임
   - $Cov[X,X] \;=\; Var[X]$  
