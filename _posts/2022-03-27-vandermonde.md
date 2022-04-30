@@ -1,7 +1,7 @@
 ---
 title: 방데르몽드 행렬 Vandermonde matrix
 categories: 
-- algebra
+- Algebra
 tags:
 - 대수학
 - algebra

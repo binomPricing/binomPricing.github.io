@@ -87,19 +87,4 @@ date: 2022-03-14 10:54:20
 
     - 항등원만으로는 구성되는 집합은 항상 군이 된다.
 
-## 정규부분군(正規部分群 : normal subgroup)
-
-- $N$ 이 $G$ 의 부분군일 때 ( $N<G$ ) 다음이 성립하면 <br>
-$N$ 을 $G$ 의 정규부분군이라 한다. ( $N \vartriangleleft G$ ).
-
-- TFAE : the following are all equivalent
-
-    1. $\forall a \in G : a N = N a$
-    
-    2. $\forall a \in G : a N a^{-1} \subset N$
-
-    3. $\forall a \in G : a N a^{-1} = N$
-
-- 단, 위에서 $aN = \\{ an : \forall n \in N \\}$ <br> 그리고 $Na = \\{ na : \forall n \in N \\}$
-
 <br>

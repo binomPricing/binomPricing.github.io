@@ -1,7 +1,7 @@
 ---
 title: 대칭다항식 symmetric polynomial
 categories: 
-- algebra
+- Algebra
 tags:
 - 대칭다항식 
 - 대수학
