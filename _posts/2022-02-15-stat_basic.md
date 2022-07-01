@@ -87,37 +87,37 @@ $: \bar{\mathbf{X}}\_n = \sum_{i=1}^{n}\frac{X_i}{n} $
  
 ### 추정량에 요구되는 기본 성질
 
-#### 1. 비편향성 : unbiased : $E[\bar{\mathbf{X}}]=\mu$
+#### 1. 비편향성 : unbiased : $E[\bar{\mathbf{X}}_n]=\mu$
 
   - 평균적으로 맞다
 
-#### 2. 일치성 : consistent : $\displaystyle\lim_{n\to\infty}E[\bar{\mathbf{X}}]=\mu$
+#### 2. 일치성 : consistent : $\displaystyle\lim_{n\to\infty}\bar{\mathbf{X}}_n=\mu$
 
   - 비일치 추정량은 표본의 수가 많아져도 개선 효과 없음
  
-#### 3. 효율성 : efficient : $Var[\bar{\mathbf{X}}]$ 분산이 작다    
+#### 3. 효율성 : efficient : $Var[\bar{\mathbf{X}}_n]$ 분산이 작다    
 
   - 추정의 오차/변동성이 낮다 : 자주 크게 틀리지는 않는다
 
 
-### 검정(test) 위해 오차의 추정 필요 : $\quad Var[\bar{\mathbf{X}}] = \frac{\;\sigma^2}{n}$
+### 검정(test) 위해 오차의 추정 필요 : $\quad Var[\bar{\mathbf{X_n}}] = \frac{\;\sigma^2}{n}$
   
   
 모평균뿐만 아니라 모분산도 모르므로 추정 필요
 
 - 가정 : $X_i \sim$ 정규분포 또는 $n$ 충분히 큼 : 중심극한정리
 
-  $\quad \sigma^2 \quad \Rightarrow \quad \hat\sigma^2 : S^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{\mathbf{X}})^2$
+  $\quad \sigma^2 \quad \Rightarrow \quad \hat\sigma^2 : S^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i - \bar{\mathbf{X}}_n)^2$
 
 추정량/검정량은 주어진 정보(표본 등)만으로 측정 가능해야 함
 
 - 예 : $H_0 : \mu=m$ 검정
 
-$ \quad \quad \cfrac{\bar{\mathbf{X}}-\mu}{\frac{\sigma}{\sqrt{n}}} \sim N(0,1) $  
+$ \quad \quad \cfrac{\bar{\mathbf{X}}_n-\mu}{\frac{\sigma}{\sqrt{n}}} \sim N(0,1) $  
 
 $ \quad \quad \frac{(n-1) S^2}{\sigma^2} \sim \chi^2_{n-1} $  
 
-$ \quad \quad \cfrac{\bar{\mathbf{X}}-\mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1} $  
+$ \quad \quad \cfrac{\bar{\mathbf{X}}_n-\mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1} $  
 
 Note : $Z, Z_i \sim iiN(0,1)$
 
