@@ -113,11 +113,11 @@ $: \bar{\mathbf{X}}\_n = \sum_{i=1}^{n}\frac{X_i}{n} $
 
 - 예 : $H_0 : \mu=m$ 검정
 
-$\quad \quad \cfrac{\bar{\mathbf{X}}_n-\mu}{\frac{\sigma}{\sqrt{n}}} \sim N(0,1)$  
+$$\quad \quad \cfrac{\bar{\mathbf{X}}_n-\mu}{\frac{\sigma}{\sqrt{n}}} \sim N(0,1)$$  
 
-$\quad \quad \frac{(n-1) S^2}{\sigma^2} \sim \chi^2_{n-1}$  
+$$\quad \quad \frac{(n-1) S^2}{\sigma^2} \sim \chi^2_{n-1}$$  
 
-$\quad \quad \cfrac{\bar{\mathbf{X}}_n-\mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1}$  
+$$\quad \quad \cfrac{\bar{\mathbf{X}}_n-\mu}{\frac{S}{\sqrt{n}}} \sim t_{n-1}$$  
 
 Note : $Z, Z_i \sim iiN(0,1)$
 
