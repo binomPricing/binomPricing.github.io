@@ -29,7 +29,7 @@ $$x^n + a_{n-1}x^{n-1} + \cdots + a_1 x + a_0 = 0$$
 
     - operation $+, -, \times, \div$ and
 
-    - radicals $\;\sqrt{\;\;} \;, \;\sqrt[3]{\;\;} \;,\; \cdots$
+    - radicals $\displaystyle \;\sqrt{\;\;} \;, \;\sqrt[3]{\;\;} \;,\; \cdots$
 
 
 ### radical
