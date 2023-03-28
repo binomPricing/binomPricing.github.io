@@ -48,7 +48,7 @@ date: 2022-03-15 10:54:00
 
 # Magma $\supset$ Semigroup $\supset$ Monoid <br> $\supset$ Group $\supset$ Field
 
-- [대수학 기초 참조](/algebra/grouptheory1)
+- [대수학 기초 참조](https://binompricing.github.io/algebra/grouptheory1)
 
 ### < 이항연산 대수 구조의 정리 >
 
