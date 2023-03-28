@@ -46,7 +46,7 @@ date: 2022-03-15 10:54:00
     
 <br>
 
-# Magma $\supset$ Semigroup $\supset$ Monoid <br> $\supset$ Group $\supset$ Field
+# Magma $\supset$ Semigroup $\supset$ Monoid $\supset$ Group $\supset$ Field
 
 - [대수학 기초 참조](https://binompricing.github.io/algebra/grouptheory1)
 
