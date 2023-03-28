@@ -78,7 +78,7 @@ $H$ 의 $xG$ 에 대한 우잉여류(right coset)는
 - $H$ 의 원소 $x$ 를 $hx$ 에 대잉시키는 <br>
 $H \rightarrow Hx$ 는 일대일대응이다
     
-- $ \| G \| = \| H \| \times \|G:H \| $
+- $\| G \| = \| H \| \times \|G:H \|$
     - 단, $\| G \|$ 는 군 $G$ 의 원소의 개수(위수)이며
     - $\|G:H \|$ 는 부분군 $H$ 에 의한 잉여류의 개수인데,
     - 이를 $H$ 의 지수(index)라고 한다.
@@ -90,11 +90,11 @@ $N$ 을 $G$ 의 정규부분군이라 한다 ( $N \vartriangleleft G$ ).
 
 - TFAE : the following are all equivalent
 
-    1. $ \; \forall a \in G  \; : \;  a N = N a$
+    1. $\; \forall a \in G  \; : \;  a N = N a$
     
-    2. $ \; \forall a \in G  \; : \;  a N a^{-1} \subset N$
+    2. $\; \forall a \in G  \; : \;  a N a^{-1} \subset N$
 
-    3. $ \; \forall a \in G  \; : \;  a N a^{-1} = N$
+    3. $\; \forall a \in G  \; : \;  a N a^{-1} = N$
 
 - 단, 위에서 $aN = \\{ an : \forall n \in N \\}$ <br> 그리고 $Na = \\{ na : \forall n \in N \\}$
 
