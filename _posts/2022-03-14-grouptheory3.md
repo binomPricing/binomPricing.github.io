@@ -85,7 +85,7 @@ $H \rightarrow Hx$ 는 일대일대응이다
 
 ## 정규부분군(正規部分群 : normal subgroup)
  
-- $N$ 이 $G$ 의 부분군일 때 ( $N<G$ ) 다음이 성립하면 $N$ 을 $G$ 의 정규부분군이라 한다 ( $N \vartriangleleft G$ ). 
+- $N$ 이 $G$ 의 부분군일 때($N<G$) 다음이 성립하면 $N$ 을 $G$ 의 정규부분군이라 한다($N \vartriangleleft G$). 
 
 - TFAE : the following are all equivalent
 
